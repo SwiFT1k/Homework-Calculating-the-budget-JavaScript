@@ -15,7 +15,7 @@ let appData = {
     income: [],
     savings: false
 };
-console.log(appData);
+    console.log(appData);
 // 3
 let questionExpenses = prompt('Введите обязательную статью расходов в этом месяце', '');
 let questionAmount = +prompt('Во сколько обойдется?', '');
@@ -25,4 +25,6 @@ let questionAmount2 = +prompt('Во сколько обойдется?', '');
 appData.expenses.amount = `${questionExpenses} : ${questionAmount}`;
 appData.expenses.amount2 = `${questionExpenses2} : ${questionAmount2}`;
 // 5
-alert(`Ваш бюджет на месяц =  ${appData.moneyData / 30}`);
+let full = (`Ваш бюджет на месяц =  ${appData.moneyData / 30}`);
+alert(full);
+     console.log(full);
