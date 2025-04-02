@@ -97,3 +97,7 @@ function chooseOptExpenses() {
 };
 
 chooseOptExpenses();
+
+for (let key in appData) {
+    alert("Наша программа включает в себя данные: " + key + " " + appData[key]);
+ }
